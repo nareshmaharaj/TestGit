@@ -1,5 +1,4 @@
 
-tup = (1,2 [3,5])
-print(tuple(enumerate(tup),type(tup))
+tup = (1,2 ,3,5])
 
-
+print(tuple(enumerate),type(tup),id(type),len(tup))
