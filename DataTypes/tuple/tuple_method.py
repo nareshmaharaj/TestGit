@@ -20,6 +20,50 @@ print(tuple(enumerate(tup)),type(tup))
 tup = (5, 6, [1,3])
 print(tuple(enumerate(tup)),type(tup))
 
+def hello_naresh():
+   print('hello_naresh')
+hello_naresh()
+
+def naresh(x, y):
+    s=x+y
+    print(s)
+naresh(20, 30)
+
+
+naresh = '''welcome
+to
+sushmitha 
+usa    
+'''
+print(naresh)
+
+#list
+c = [10, 3.56, "naresh"]
+print(c)
+
+
+#class Practice:
+   # a = 50
+    #print(a)
+    #Practice.a
+    #print(Practice.a)
+
+def student_info(*args, **kwargs):
+    print(args)
+    print(kwargs)
+courses = ['math', 'art']
+info = {'name':'john','age':25}
+
+student_info(*courses, **info)
+
+
+
+
+
+
+
+
+
 
 
 
